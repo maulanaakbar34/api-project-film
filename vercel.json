@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-        "src": "server.js",
+        "src": "server_sqlite.js",
         "use": "@vercel/node"
     }
 ],
 "routes": [
     {
         "src": "/(.*)",
-        "dest": "server.js"
+        "dest": "server_sqlite.js"
         }
     ]   
 }
